@@ -1,0 +1,21 @@
+
+body, html, *{
+    background-image: url(Kurumi.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+#clock{
+    text-align: center;
+    font-size: 3em;
+    margin: auto;
+    padding: 0;
+    position: absolute;
+    display: flex;
+    top: 45%;
+    left: 43%;
+    bottom: 50%;
+    right: 50%;
+    color: aqua;
+}
+
