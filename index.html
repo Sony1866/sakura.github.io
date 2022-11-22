@@ -5,18 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styleH.css">
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
  <div class="center">
     <h1>Login</h1>
-    <form method="post">
+    
+    <form method="get" onsubmit="return validated(validated)" action="/Home pages/index.html" >
+      
         <div class="Kotak1" id="source">
-            <input type="text" required>
+            <input type="text" name="Username" required>
             <label>Username</label>
             </div>
         <div class="Kotak1">
-            <input type="text" required>
+            <input type="text" name="Sandi" required>
             <label>Password</label>
        
         </div>
@@ -25,7 +28,8 @@
         <div class="signup">
           Not a member?  <a href="#">signup</a>
         </div>
+    </a>
     </form>
-    <script src="Login.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
