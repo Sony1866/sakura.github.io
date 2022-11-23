@@ -3,10 +3,8 @@ body, html, *{
     margin: 0;
     padding: 0;
     background-image: url(Kurumi.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
-    max-width: 100%;
-    height: auto;
+    
 }
 
 #clock{
