@@ -5,6 +5,8 @@ body, html, *{
     background-image: url(Kurumi.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    height: auto;
+    width: auto;
 }
 
 #clock{
