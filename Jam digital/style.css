@@ -1,11 +1,11 @@
 
 body, html, *{
-    background-image: url(Kurumi.jpg);
     margin: 0;
     padding: 0;
 }
 
 #clock{
+  background-image: url(Kurumi.jpg);
     text-align: center;
     font-size: 3em;
     margin: auto;
