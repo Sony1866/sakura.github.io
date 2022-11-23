@@ -4,7 +4,7 @@ body, html, *{
     padding: 0;
     background-image: url(Kurumi.jpg);
     background-repeat: no-repeat;
-    
+    height: 100vh;
 }
 
 #clock{
