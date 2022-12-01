@@ -1,6 +1,7 @@
 body{
     background-color: aquamarine;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
 }
 
 .Sign-up{
@@ -19,10 +20,11 @@ form{
     width: 300px;
     margin-left: 20px;
 }
+
 form label{
     display: flex;
   margin-top: 20px;
-  font-size: 10px;
+  font-size: 15px;
 
 }
 
@@ -35,27 +37,27 @@ form input{
     outline: none;
 }
 
-input[type="button"]{
+input[type="Submit"]{
     width: 320px;
     height: 35px;
     margin-top: 20px;
     border: none;
     background-color: skyblue;
     color: black;
-    font-size: 10px;
+    font-size: 18px;
 }
 
 p{
     text-align: center;
     padding-top: 20px;
-    font-size: 15px;
+    font-size: 19px;
 
 }
 
 .panama{
     text-align: center;
-    color: white;
-    font-size: 15px;
+    color: black;
+    font-size: 19px;
     margin-top: -10px;
 }
 
